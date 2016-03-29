@@ -12,7 +12,7 @@ Here is the full definition, from an example:
     	'apiKey' => 'AwesomeKeyInit'
     ],
     
-Everything is quite self explanatory except for `identityEndpoint`. This is a string representation of the constent name.
+Everything is quite self explanatory except for `identityEndpoint`. This is a string representation of the constant name.
 
 At the time of writing there are currently two values for the `identityEndpoint` option:
 
