@@ -25,3 +25,9 @@ Now with this definition you can just use the API like the component doesn't eve
 
     $cdn = Yii::$app->rackspace->cdnService();
     var_dump($cdn->listServices());
+    
+## Links
+
+- [Issue Tracker](https://github.com/Sammaye/yii2-rackspace/issues)
+- [Github](https://github.com/Sammaye/yii2-rackspace)
+- [Packagist](https://packagist.org/packages/sammaye/yii2-rackspace)
