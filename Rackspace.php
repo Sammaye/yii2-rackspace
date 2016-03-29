@@ -17,7 +17,7 @@ class Rackspace extends Component
     public function getClient()
     {
         if($this->_client === null){
-            $this->_client = new Rs(constant('Rs::' . $this->identityEndpoint), array(
+            $this->_client = new Rs(constant('OpenCloud\Rackspace::' . $this->identityEndpoint), array(
                 'username' => $this->username,
                 'apiKey' => $this->apiKey
             ));
@@ -26,8 +26,9 @@ class Rackspace extends Component
         return $this->_client;
     }
     
-    public function __get()
+    public function __get($k)
     {
+        return $this->$k;
     }
     
     public function __call($name, $params)
