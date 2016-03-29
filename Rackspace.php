@@ -28,6 +28,9 @@ class Rackspace extends Component
     
     public function __get($k)
     {
+        if(property_exists($this->getClient(), $k)){
+            return $this->getClient()->$k;    
+        }
         return $this->$k;
     }
     
