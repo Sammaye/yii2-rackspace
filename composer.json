@@ -1,0 +1,19 @@
+{
+    "name": "sammaye/yii2-rackspace",
+    "description": "A Yii2 plugin for some Rackspace lovin'",
+    "keywords": ["yii2","rackspace","yii"],
+    "type": "yii-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sammaye",
+            "homepage": "http://sammaye.wordpress.com"
+        }
+    ],
+	"require": {
+        "rackspace/php-opencloud": "~1.16"
+	},
+    "autoload": {
+        "psr-4": { "sammaye\\rackspace\\": "" }
+    }
+}
